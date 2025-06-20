@@ -78,7 +78,6 @@ int main() {
         for (int j = 0; j < n; j++)
             graph[i][j] = readIntCell(i, j);
     }
-    // Initialize visited
     for (int i = 0; i < n; i++) {
         visited[i] = false;
         parent[i] = -1;
